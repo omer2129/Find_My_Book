@@ -5,7 +5,7 @@
     android:id="@+id/login"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#d4d4d4"
+    android:background="#3C3F41"
     tools:context=".MainActivity">
 
     <ImageView
@@ -15,12 +15,12 @@
         android:layout_marginStart="100dp"
         android:layout_marginEnd="100dp"
         android:layout_marginBottom="56dp"
+        android:contentDescription="@string/todo2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.487"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/logo"
-        android:contentDescription="@string/todo2" />
+        app:srcCompat="@drawable/logo" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -30,12 +30,12 @@
         android:layout_marginTop="158dp"
         android:layout_marginEnd="30dp"
         android:layout_marginBottom="98dp"
+        android:contentDescription="@string/todo3"
         app:layout_constraintBottom_toTopOf="@+id/imageButton5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/text_input"
-        android:contentDescription="@string/todo3" />
+        app:srcCompat="@drawable/text_input" />
 
     <ImageButton
         android:id="@+id/imageButton5"
@@ -45,13 +45,13 @@
         android:layout_marginTop="25dp"
         android:layout_marginEnd="40dp"
         android:layout_marginBottom="50dp"
+        android:contentDescription="@string/todo1"
         app:layout_constraintBottom_toTopOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.482"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2"
-        app:srcCompat="@drawable/login_button"
-        android:contentDescription="@string/todo1" />
+        app:srcCompat="@drawable/login_button" />
 
     <EditText
         android:id="@+id/editTextNumber"
@@ -61,6 +61,7 @@
         android:layout_marginTop="158dp"
         android:layout_marginEnd="50dp"
         android:layout_marginBottom="156dp"
+        android:autofillHints=""
         android:ems="10"
         android:hint="@string/enter_your_number"
         android:inputType="number"
@@ -68,7 +69,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        android:autofillHints="" />
+        app:layout_constraintVertical_bias="1.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
