@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Find My Book</string>
+    <string name="enter_your_number">Enter your Number</string>
+    <string name="todo1">TODO</string>
+    <string name="todo2">TODO</string>
+    <string name="todo3">TODO</string>
 </resources>
